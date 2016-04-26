@@ -3,6 +3,7 @@ using System.Collections;
 
 public class OnEvent : MonoBehaviour {
 
+	// Delegate example
 	delegate void MyDelegate(int num);
 	MyDelegate myDelegate;
 
